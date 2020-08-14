@@ -12,7 +12,6 @@ function flipCard() {
 
   // 避免翻同一張牌當做第二張
   if (this === firstCard) return;
-
   this.classList.add('flip');
 
   if (!hasFlippedCard) {
@@ -20,9 +19,7 @@ function flipCard() {
     firstCard = this; // this => the clicked card
     return;
   }
-
   secondCard = this;
-
   checkForMatch();
 }
 
@@ -52,7 +49,7 @@ function unflipCards() {
     firstCard.classList.remove('flip');
     secondCard.classList.remove('flip');
     resetBoard();
-  }, 1200);
+  }, 1000);
 }
 
 function resetBoard() {
