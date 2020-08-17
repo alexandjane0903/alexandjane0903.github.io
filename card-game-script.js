@@ -60,7 +60,7 @@ function resetBoard() {
 function checkFinished() {
   if(finishedCardPairs == ((cards.length/2))){
     setTimeout(() => {
-      window.alert("通關暗號是：「******」");
+      window.alert("線索是：");
     }, 800);
   }
 }
