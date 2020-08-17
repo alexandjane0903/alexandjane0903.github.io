@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+@font-face {
+  font-family: openhuninn;
+  src: local("Openhuninn"), url(jf-openhuninn-1.1.ttf);
+}
 
 * {
   padding: 0;
@@ -32,21 +35,45 @@ body {
 
 h1 {
   height: 10vh;
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei';
+  font-family: 'openhuninn', 'Microsoft JhengHei';
+  text-shadow: -1px -1px white, 1px 1px #333;
+  font-weight: lighter;
   text-align: center;
-  padding-top: 18px;
+  padding-top: 5vh;
   font-size: 42px;
   color: #ffffff;
-  text-shadow: -1px -1px white, 1px 1px #333
 }
 
 h3 {
   height: 5vh;
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei';
+  font-family: 'openhuninn', 'Microsoft JhengHei';
+  text-shadow: -0.2px -0.2px white, 0.8px 0.8px #333;
+  font-weight: lighter;
   text-align: center;
-  padding-top: 14px;
+  padding-top: 2vh;
   color: #ffffff;
-  text-shadow: -1px -1px white, 1px 1px #333
+}
+
+.introBtn {
+  font-family: 'openhuninn', 'Microsoft JhengHei';
+  background-color:transparent;
+  border: none;
+  color: blue;
+  padding-top: 2vh;
+  padding-bottom: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline:none;
+}
+
+.introBtn:hover {
+  font-family: 'openhuninn', 'Microsoft JhengHei';
+  transition-duration: .2s;
+  color: cornflowerblue;
 }
 
 .memory-game {
@@ -123,28 +150,6 @@ h3 {
   transform: rotateY(180deg);
 }
 
-.introBtn {
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei';
-  background-color:transparent;
-  border: none;
-  color: blue;
-  padding-top: 12px;
-  padding-bottom: 6px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  cursor: pointer;
-  outline:none;
-}
-
-.introBtn:hover {
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei';
-  transition-duration: .4s;
-  color: darkblue;
-}
-
 .modal {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
@@ -169,8 +174,9 @@ h3 {
 
 /* Modal Content */
 .modal-content {
+  font-family: 'openhuninn', 'Microsoft JhengHei';
+  font-weight: lighter;
   border-radius: 36px;
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei';
   line-height: 40px;
   font-size: 20px;
   background-color: #fefefe;
