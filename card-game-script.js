@@ -60,7 +60,7 @@ function resetBoard() {
 function checkFinished() {
   if(finishedCardPairs == ((cards.length/2))){
     setTimeout(() => {
-      window.alert("線索共三個數字x,y,z：x跟y相乘等於15，y跟z差一個x，解出後依格子上色於第一關的線索卡，接著再去你家信箱尋找第二關的任務吧！");
+      window.alert("線索共三個數字 x,y,z：「 x 跟 y 相乘等於 15，y 跟 z 差一個 x 」，解出後，依第一關線索卡上格子的數字編號上色，接著再去你家信箱尋找第二關的任務吧！");
     }, 800);
   }
 }
