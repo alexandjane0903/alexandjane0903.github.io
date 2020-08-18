@@ -36,11 +36,13 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  /* background-repeat: no-repeat;
+
+  background-image: url('bg1.png');
+  background-repeat: no-repeat;
   background-size: cover; */
 
-  /* background-attachment: fixed;
-  background-position: center; */
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1 {
