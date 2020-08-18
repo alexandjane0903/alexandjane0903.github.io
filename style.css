@@ -15,8 +15,8 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   object-fit: cover;
 }
 
@@ -36,13 +36,11 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  /* background-image: url('https://lh3.googleusercontent.com/2kONWNrdnH0CSTcCSIxXqbArJS3X5Tf-QSHfW-v1GR_yx_IWjo4CVjT6Q6_h1pHwlQMwBiuQF3XTtSRG4H0AhSr5ZxiekyRoEXNDG6xsV7Epc1-cWAsgU-iCGz4XXAfBU8xHDLAC6YY=w2400'); */
-  background-image: url('bg1.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
 
-  background-attachment: fixed;
-  background-position: center;
+  /* background-attachment: fixed;
+  background-position: center; */
 }
 
 h1 {
